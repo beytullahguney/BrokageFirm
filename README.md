@@ -1,4 +1,5 @@
 Brokerage Firm Backend API
+
 This is a Spring Boot-based backend application for managing stock orders, assets, and customer transactions for a brokerage firm. 
 The application includes creating, listing, and deleting stock orders, managing customer assets like TRY (Turkish Lira), and deposit/withdrawal operations.
 
