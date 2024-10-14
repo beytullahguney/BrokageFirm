@@ -1,3 +1,4 @@
+import ing.brokeragefirm.BrokerageApplication;
 import ing.brokeragefirm.model.Asset;
 import ing.brokeragefirm.model.Customer;
 import ing.brokeragefirm.repository.CustomerRepository;
@@ -9,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@SpringBootTest
+@SpringBootTest(classes = BrokerageApplication.class)
 public class AssetServiceTests {
 
     @Autowired
