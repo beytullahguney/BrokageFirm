@@ -31,7 +31,7 @@ Getting Started
 1. Clone the repository
 bash
 Copy code
-git clone [https://github.com/your-repo/brokerage-api.git](https://github.com/beytullahguney/BrokageFirm.git)
+git clone https://github.com/beytullahguney/BrokageFirm.git 
 cd brokerage-api
 2. Build the project
 Use Gradle to build the project:
